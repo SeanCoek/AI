@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加规则页面</title>
+</head>
+<body>
+  <form>
+    <h2>条件</h2>
+      {% for condition in conditions %}
+        <label><input type="checkbox" value='{{ condition }}' /> {{ condition }}</label>
+      {% endfor %}
+    <h2>结果</h2>
+      {% for result in results %}
+        <label><input type="checkbox" name='result' value='{{ result }}' /> {{ result }}</label>
+      {% endfor %}
+  </form>
+</body>
+</html>
