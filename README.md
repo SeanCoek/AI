@@ -1,3 +1,3 @@
 # AI
-for AI homework
-JNU
+# for AI homework
+# Ji Nan University(JNU)
